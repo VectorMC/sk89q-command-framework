@@ -14,33 +14,33 @@
   </modules>
 
   <scm>
-    <connection>scm:git:git://github.com/Avicus/sk89q-command-framework.git</connection>
-    <developerConnection>scm:git:git@github.com:Avicus/sk89q-command-framework.git</developerConnection>
-    <url>https://github.com/Avicus/sk89q-command-framework</url>
+    <connection>scm:git:git://github.com/VectorMC/sk89q-command-framework.git</connection>
+    <developerConnection>scm:git:git@github.com:VectorMC/sk89q-command-framework.git</developerConnection>
+    <url>https://github.com/VectorMC/sk89q-command-framework</url>
   </scm>
 
   <repositories>
     <repository>
-      <id>avicus-public</id>
-      <url>https://repo.avicus.net/content/groups/public/</url>
+      <id>vector-public</id>
+      <url>https://repo.vectormc.net/artifactory/public</url>
     </repository>
     <repository>
-      <id>avicus-repo</id>
-      <url>https://repo.avicus.net/content/groups/private/</url>
+      <id>vector-private</id>
+      <url>https://repo.vectormc.net/artifactory/private</url>
     </repository>
     <repository>
       <id>pa-releases</id>
-      <url>https://repo.extension.ws/content/repositories/releases</url>
+      <url>https://repo.vectormc.net/artifactory/mirrors</url>
     </repository>
   </repositories>
   <distributionManagement>
     <repository>
-      <id>avicus-repo</id>
-      <url>https://repo.avicus.net/content/repositories/releases-private/</url>
+      <id>vector-private</id>
+      <url>https://repo.vectormc.net/artifactory/private</url>
     </repository>
     <snapshotRepository>
-      <id>avicus-repo</id>
-      <url>https://repo.avicus.net/content/repositories/snapshots-private/</url>
+      <id>vector-private</id>
+      <url>https://repo.vectormc.net/artifactory/private</url>
     </snapshotRepository>
   </distributionManagement>
 
